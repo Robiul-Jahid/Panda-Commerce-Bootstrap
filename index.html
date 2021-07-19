@@ -14,6 +14,10 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <!------------------------------------ 
+      css style 
+    ----------------------------------- -->
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <!-- Header Start -->
@@ -52,8 +56,8 @@
           </div>
         </div>
       </nav>
-      <!-- images slider -->
-      <section class="container">
+      <!-- images slider carousel-->
+      <section class="container mt-5">
         <div
           id="carouselExampleControls"
           class="carousel slide"
@@ -62,7 +66,7 @@
           <div class="carousel-inner rounded">
             <div class="carousel-item active">
               <div
-                class="row bg-info bg-gradient d-flex align-items-center p-5"
+                class="row panda-bg-info bg-gradient d-flex align-items-center p-5"
               >
                 <div class="col-lg-7">
                   <h1>Cool Dude Headphone</h1>
@@ -71,7 +75,7 @@
                     waste time in front of funky world.
                   </p>
                   <h2>$420</h2>
-                  <button class="btn-warning">Buy Now</button>
+                  <button class="panda-btn">Buy Now</button>
                 </div>
                 <div class="col-lg-5">
                   <img
@@ -84,7 +88,7 @@
             </div>
             <div class="carousel-item">
               <div
-                class="row bg-info bg-gradient d-flex align-items-center p-5"
+                class="row panda-bg-info bg-gradient d-flex align-items-center p-5"
               >
                 <div class="col-lg-7">
                   <h1>Mega LCD TV for Sports</h1>
@@ -92,7 +96,7 @@
 This is the best tv in the world for people who just want to waste time in front of tv.
                   </p>
                   <h2>$1200</h2>
-                  <button class="btn-warning">Buy Now</button>
+                  <button class="panda-btn">Buy Now</button>
                 </div>
                 <div class="col-lg-5">
               <img
@@ -105,7 +109,7 @@ This is the best tv in the world for people who just want to waste time in front
             </div>
             <div class="carousel-item">
               <div
-                class="row bg-info bg-gradient d-flex align-items-center p-5"
+                class="row panda-bg-info bg-gradient d-flex align-items-center p-5"
               >
                 <div class="col-lg-7">
                   <h1>X-Box for your living room</h1>
@@ -114,7 +118,7 @@ This is the best tv in the world for people who just want to waste time in front
 This is the best x-box in the world for people who just want to waste time in front of fake sports.
                   </p>
                   <h2>$660</h2>
-                  <button class="btn-warning">Buy Now</button>
+                  <button class="panda-btn">Buy Now</button>
                 </div>
                 <div class="col-lg-5">
               <img
@@ -149,7 +153,7 @@ This is the best x-box in the world for people who just want to waste time in fr
     <main>
       <!-- Catagories -->
 
-      <section class="container my-5">
+      <section class="container my-5 catagories">
         
   <div class="row g-4">
     <div class="col-lg-4 col-md-6 col-12">
@@ -181,7 +185,7 @@ This is the best x-box in the world for people who just want to waste time in fr
         <h4>$120</h4>
       </div>
       <div class="card-footer border-0 m-1">
-       <button class="btn btn-warning">Buy Now >></button>
+       <button class="panda-btn">Buy Now >></button>
       </div>
     </div>
   </div>
@@ -194,7 +198,7 @@ This is the best x-box in the world for people who just want to waste time in fr
         <h4>$220</h4>
       </div>
       <div class="card-footer border-0 m-1">
-        <button class="btn btn-warning">Buy Now >></button>
+        <button class="panda-btn">Buy Now >></button>
       </div>
     </div>
   </div>
@@ -207,7 +211,7 @@ This is the best x-box in the world for people who just want to waste time in fr
         <h4>$350</h4>
       </div>
       <div class="card-footer border-0 m-1">
-         <button class="btn btn-warning">Buy Now >></button>
+         <button class="panda-btn">Buy Now >></button>
       </div>
     </div>
   </div>
@@ -228,7 +232,7 @@ This is the best x-box in the world for people who just want to waste time in fr
         <h4>$220</h4>
       </div>
       <div class="card-footer border-0 m-1">
-       <button class="btn btn-warning">Buy Now >></button>
+       <button class="panda-btn">Buy Now >></button>
       </div>
     </div>
   </div>
@@ -241,7 +245,7 @@ This is the best x-box in the world for people who just want to waste time in fr
         <h4>$120</h4>
       </div>
       <div class="card-footer border-0 m-1">
-        <button class="btn btn-warning">Buy Now >></button>
+        <button class="panda-btn">Buy Now >></button>
       </div>
     </div>
   </div>
@@ -254,7 +258,7 @@ This is the best x-box in the world for people who just want to waste time in fr
         <h4>$320</h4>
       </div>
       <div class="card-footer border-0 m-1">
-         <button class="btn btn-warning">Buy Now >></button>
+         <button class="panda-btn">Buy Now >></button>
       </div>
     </div>
   </div>
@@ -263,11 +267,11 @@ This is the best x-box in the world for people who just want to waste time in fr
 <!----------------------------------------------------------------- 
                                 Subscribe  
 ------------------------------------------------------------------->
-<section style="height: 300px;" class="container d-flex justify-content-center align-items-center bg-info rounded-3" id="subscribe">
+<section style="height: 300px;" class="container d-flex justify-content-center align-items-center panda-bg-info rounded-3" id="subscribe">
  <div> <h1>Let's Stay In Touch</h1>
   <p>Get updates on sales, specials and more</p>
-  <input type="text" placeholder="Your Email" name="" id=""> <br>
-  <button class="btn btn-warning" type="submit">Submit</button>
+  <input type="text" class="form-control" placeholder="Your Email" name="" id=""> <br>
+  <button class="panda-btn" type="submit">Submit</button>
 </div>
 </section>
     </main>
